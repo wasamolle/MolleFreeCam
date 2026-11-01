@@ -1,0 +1,11 @@
+name: MolleFreeCam
+version: '1.0'
+api-version: '26.3'
+main: mollefreecam.Main
+description: A simple freecam plugin for all type of servers
+author: wasamolle
+website: https://github.com/wasamolle/MolleFreeCam
+commands:
+  float:
+    usage: "/float"
+    description: "Used to toggle the freecam mode."

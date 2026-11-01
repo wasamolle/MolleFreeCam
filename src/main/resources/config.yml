@@ -1,0 +1,23 @@
+##################################################
+#                   MolleFreeCam                 #
+#                     Settings                   #
+##################################################
+
+# By default, permission freecam.use is needed to use freecam mode
+# Set this setting to true to enable freecam mode for everyone
+default-allow: true
+
+# To enable freecam mode for OPs by default, change this setting to true
+op-allow: false
+
+# max period in seconds to stay in freecam mode
+# use -1 to disable time period limit
+freecam-period: 60
+
+# cooldown in seconds after using freecam mode
+# use -1 to disable cooldown
+freecam-cooldown: 15
+
+# max distance from the starting point in freecam mode
+# use -1 to disable distance limit
+freecam-max-distance: 60
